@@ -1,4 +1,4 @@
-/* VERSION 2.2 */
+/* v2.3 */
 @-moz-document url-prefix("https://app.wafrn.net/") {
   /*
   OPTIONS!!!!!!
@@ -747,8 +747,17 @@
       font-family:specialCursive;
       font-size:4rem;
   }
+  app-single-ask~button {
+      background-color:#f00!important;
+      font-family: sixteenSegment, sevenSegment!important;
+      font-size:1.5rem!important;
+      color:#000!important;
+  }
+  app-single-ask+button {
+      background-color:#0f0!important;
+  }
   /* EDITOR */
-  .wafrn-post-editor+p, label[for="postCreatorContent"], .bsky-progress-bar, .bottom-information-bar>div:first-of-type, .post-length-warning, button.close-post-btn>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(3)>fa-icon, div.file-upload>button>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(4)>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(5) /*no emoji button for you hehehe*/, .below-editor-toolbar-rightside>button>span, .below-editor-toolbar-leftside>button:nth-of-type(6)>fa-icon, .post-editor-data>app-info-card /* also no warnings i trust the people who use this 100% */, .below-editor-toolbar-leftside>button:nth-of-type(2) .mat-focus-indicator, svg[data-icon="globe"]>path, svg[data-icon="unlock"]>path, svg[data-icon="server"]>path, .quoted-post>button>span {
+  .wafrn-post-editor+p, label[for="postCreatorContent"], .bsky-progress-bar, .bottom-information-bar>div:first-of-type, .post-length-warning, button.close-post-btn>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(3)>fa-icon, div.file-upload>button>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(4)>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(5) /*no emoji button for you hehehe*/, .below-editor-toolbar-rightside>button>span, .below-editor-toolbar-leftside>button:nth-of-type(6)>fa-icon, .post-editor-data>app-info-card /* also no warnings i trust the people who use this 100% */, .below-editor-toolbar-leftside>button:nth-of-type(2) .mat-focus-indicator, svg[data-icon="globe"]>path, svg[data-icon="unlock"]>path, svg[data-icon="server"]>path, .quoted-post>button>span, .ask-label-section {
       display:none!important;
   }
   .below-editor-toolbar {
