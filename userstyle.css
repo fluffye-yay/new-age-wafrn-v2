@@ -1,4 +1,4 @@
-/* v2.3 */
+/* v2.4 */
 @-moz-document url-prefix("https://app.wafrn.net/") {
   /*
   OPTIONS!!!!!!
@@ -711,7 +711,10 @@
       content:"";
       height:2rem;
   }
-  app-loader>div {
+  mat-spinner>* {
+      display:none;
+  }
+  app-loader>div, mat-spinner {
       background-image:var(--img-loading);
       background-repeat:no-repeat;
       background-position: center center;
@@ -756,8 +759,11 @@
   app-single-ask+button {
       background-color:#0f0!important;
   }
+  .mat-mdc-snack-bar-label { /* confirmation dialouges are nice but theyre hard to style because they go away so fast so im just hiding them forever and ever!!!! */
+      display:none;
+  }
   /* EDITOR */
-  .wafrn-post-editor+p, label[for="postCreatorContent"], .bsky-progress-bar, .bottom-information-bar>div:first-of-type, .post-length-warning, button.close-post-btn>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(3)>fa-icon, div.file-upload>button>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(4)>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(5) /*no emoji button for you hehehe*/, .below-editor-toolbar-rightside>button>span, .below-editor-toolbar-leftside>button:nth-of-type(6)>fa-icon, .post-editor-data>app-info-card /* also no warnings i trust the people who use this 100% */, .below-editor-toolbar-leftside>button:nth-of-type(2) .mat-focus-indicator, svg[data-icon="globe"]>path, svg[data-icon="unlock"]>path, svg[data-icon="server"]>path, .quoted-post>button>span, .ask-label-section {
+  .wafrn-post-editor+p, label[for="postCreatorContent"], .bsky-progress-bar, .bottom-information-bar>div:first-of-type, .post-length-warning, button.close-post-btn>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(3)>fa-icon, div.file-upload>button>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(4)>fa-icon, .below-editor-toolbar-leftside>button:nth-of-type(5) /*no emoji button for you hehehe*/, .below-editor-toolbar-rightside>button>span, .below-editor-toolbar-leftside>button:nth-of-type(6)>fa-icon, .post-editor-data>app-info-card /* also no warnings i trust the people who use this 100% */, .below-editor-toolbar-leftside>button:nth-of-type(2) .mat-focus-indicator, svg[data-icon="globe"]>path, svg[data-icon="unlock"]>path, svg[data-icon="server"]>path, .quoted-post>button>span, .ask-label-section, button.delete-btn>span {
       display:none!important;
   }
   .below-editor-toolbar {
@@ -878,10 +884,27 @@
       background-size:100% 100%;
       background-position: center center;
   }
-  .quoted-post>button {
+  .quoted-post>button, button.delete-btn {
       background-image:var(--btn-ico-remove);
       background-size:100% 100%;
       background-position: center center;
       background-color:#0000!important;
+  }
+  app-media-preview~div>mat-checkbox>label {
+      color:#f00!important;
+      font-family: comicSansMS !important;
+      font-size:2rem!important;
+  }
+  #uploaded-media>p {
+      color:#0000;
+  }
+  #uploaded-media>p::before {
+      color:#f00!important;
+      font-size:2em!important;
+      content:"DESCRIBE YOUR IMAGES!!!!!";
+      font-family:noteFont;
+  }
+  textarea {
+      color:#000!important;
   }
 }
