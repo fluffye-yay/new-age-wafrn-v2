@@ -2,6 +2,8 @@
 
 ### its here!! it's mostly ready for use!! yay!! yippiee!!
 
+for wafrn version v2026.09.01-DEV, may work on others idk
+
 ### how to use:
 1. add a userstyle manager like [stylus](https://github.com/openstyles/stylus) ([firefox direct](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) to your browser
 2. click this link to install: [https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css](https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css)
