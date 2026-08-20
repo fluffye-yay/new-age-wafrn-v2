@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           new age wafrn v2
 @namespace      https://github.com/fluffye-yay/
-@version        2.5.2
+@version        2.5.3
 @description    new age wafrn theme based on design by @oreganoid@app.wafrn.net
 @author         fluffye
 ==/UserStyle== */
@@ -980,10 +980,11 @@
       background-position:center center;
   }
   mat-dialog-container>div>div {
-      background:#0000!important;
+      background:var(--bkg-three-layer)!important;
+      background-size:100% 100%!important;
   }
   
-  mat-dialog-container app-custom-dialog>h2, mat-dialog-container app-custom-dialog>mat-dialog-content, mat-dialog-container app-custom-dialog>mat-dialog-actions>button>span {
+  mat-dialog-container app-custom-dialog>h2, mat-dialog-container app-custom-dialog>mat-dialog-content, mat-dialog-container app-custom-dialog>mat-dialog-actions>button>span, app-ask-dialog-content>form>button>span, app-ask-dialog-content .mat-mdc-form-field-infix>label, app-ask-dialog-content .mdc-line-ripple {
       display:none!important;
   }
   mat-dialog-container app-custom-dialog>mat-dialog-actions {
@@ -1010,5 +1011,27 @@
       background:var(--btn-ico-draft);
       background-size:100% 100%!important;
       aspect-ratio:1;
+  }
+  app-ask-dialog-content>form>button {
+      height:4rem!important;
+      background:var(--btn-ico-post)!important;
+      background-size:contain!important;
+      background-position:center center!important;
+  }
+  .mat-internal-form-field-label {
+      font-family:comicSansMS;
+      font-size:2em;
+      color:#f00;
+  }
+  app-ask-dialog-content>form>mat-form-field {
+      background:var(--bkg-ask-text)!important;
+      background-size:100% 100%!important;
+  }
+  app-ask-dialog-content>form>mat-form-field>div:first-of-type {
+      background:#0000!important;
+  }
+  app-ask-dialog-content>form>mat-form-field>div>div>div>textarea {
+      font-family: sixteenSegment, sevenSegment!important;
+      font-size:2rem!important;    
   }
 }
