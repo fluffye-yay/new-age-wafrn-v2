@@ -3,9 +3,10 @@
 ### its here!! it's mostly ready for use!! yay!! yippiee!!
 
 ### how to use:
-add a userstyle manager like [stylus](https://github.com/openstyles/stylus) ([firefox direct](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) to your browser
-click this link to install: [https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css](https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css)
-if you do not use the app.wafrn.net instance, add your instance to "personally included sites" in your userstyle manager (under "style settings" on the left menu of the style, near the bottom)
+1. add a userstyle manager like [stylus](https://github.com/openstyles/stylus) ([firefox direct](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) to your browser
+2. click this link to install: [https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css](https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css)
+3. if you do not use the app.wafrn.net instance, add your instance to "personally included sites" in your userstyle manager (under "style settings" on the left menu of the style, near the bottom)
+
 ![screenshot of userstyle manager with personally included sites circled in red](https://github.com/fluffye-yay/new-age-wafrn-v2/blob/main/Screenshot_20260820_114702.png?raw=true)
 
 ### older versions (gists):
