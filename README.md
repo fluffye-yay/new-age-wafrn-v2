@@ -9,7 +9,7 @@
 
 ![screenshot of userstyle manager with personally included sites circled in red](https://github.com/fluffye-yay/new-age-wafrn-v2/blob/main/Screenshot_20260820_114702.png?raw=true)
 
-### features ![coming attractions](https://github.com/fluffye-yay/new-age-wafrn-v2/blob/main/m662.gif?raw=true)
+### features
 most of what is used often is themed
 - \[90%\]\* dashboard
 - \[90%\]\* editor
