@@ -9,6 +9,7 @@ for wafrn version v2026.09.01-DEV, may work on others idk
 METHOD 1 (best for most cases):
 - select from theme chooser in wafrn, under "experimental"
 ![screenshot of wafrn theme selector with new age theme circled in red](https://github.com/fluffye-yay/new-age-wafrn-v2/blob/main/Screenshot_20260821_141420.png?raw=true)
+
 METHOD 2 (for the cutting edge):
 1. add a userstyle manager like [stylus](https://github.com/openstyles/stylus) ([firefox direct](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) to your browser
 2. click this link to install: [https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css](https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css)
