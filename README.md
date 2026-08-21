@@ -2,7 +2,7 @@
 
 ### its here!! it's mostly ready for use!! yay!! yippiee!!
 
-for wafrn version v2026.09.01-DEV, may work on others idk
+for wafrn version v2026.09.01, may work on others idk
 
 
 ### how to use:
