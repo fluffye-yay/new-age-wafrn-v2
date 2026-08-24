@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           new age wafrn v2
 @namespace      https://github.com/fluffye-yay/
-@version        2.6.1
+@version        2.6.2
 @description    new age wafrn theme based on design by @oreganoid@app.wafrn.net
 @author         fluffye
 ==/UserStyle== */
@@ -1036,6 +1036,7 @@
   }
   app-ask-dialog-content>form>mat-form-field>div>div>div>textarea {
       font-family: sevenSegment!important;
-      font-size:2rem!important;    
+      font-size:2rem!important;
+      line-height:1.2em!important;
   }
 }
