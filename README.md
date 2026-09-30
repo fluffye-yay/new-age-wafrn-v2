@@ -2,7 +2,7 @@
 
 ### its here!! it's mostly ready for use!! yay!! yippiee!!
 
-for wafrn version v2026.09.01, may work on others idk
+for wafrn version v2026.10.01-DEV, may work on others idk
 
 ![wafrn dashboard with theme applied](https://github.com/fluffye-yay/new-age-wafrn-v2/blob/main/Screenshot_20260821_143946.png?raw=true)
 
