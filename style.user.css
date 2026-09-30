@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           new age wafrn v2
 @namespace      https://github.com/fluffye-yay/
-@version        2.6.8
+@version        2.6.9
 @description    new age wafrn theme based on design by @oreganoid@app.wafrn.net
 @author         fluffye
 ==/UserStyle== */
@@ -161,9 +161,13 @@
       font-family: sevenSegment;
       color:#f00;
   }
-
   .fragment-content {
       background: #fff;
+  }
+  .fragment-content p {
+    padding: 5px;
+    margin:0!important;
+   
   }
   .user-url>span::before {
       content: "thid post is by "
@@ -529,14 +533,17 @@
   .blog-header p.line-height-3 {
       font-size:2rem!important;
   }
-  .shortened-post~button:first-of-type {
+  .shortened-post~button:first-of-type, app-post-fragment+hr+button {
       z-index:1;
       background-image:var(--bkg-bottom-menu)!important;
-      background-size:100% 100%;
+      background-size:100% 100%!important;
       background-position:center center!important;
       color:#000;
       font-family: sevenSegment;
       font-size:2rem;
+  }
+  app-post-fragment+hr+button.mb-3 {
+    margin-bottom: 6rem!important;
   }
   .mat-badge-active {
       color:#f00;
@@ -649,6 +656,7 @@
   }
   .emoji-reactions {
       height:0;
+      margin-top:2.5rem!important;
   }
   section.emoji-reactions:not(section.media-gallery~section.emoji-reactions)::after {
       content:var(--img-fuck-no-image);
