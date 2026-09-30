@@ -12,7 +12,7 @@ for wafrn version v2026.10.01-DEV, may work on others idk
 
 ![wafrn theme selector with new age theme choice circled](https://github.com/fluffye-yay/new-age-wafrn-v2/blob/main/Screenshot_20260821_141420.png?raw=true)
 
-##### method 2 (for the cutting edge, new releases available hours or even days earlier!):
+##### method 2 (for the cutting edge, new releases available hours or even days earlier! (bonus: loading screen styled!)):
 1. add a userstyle manager like [stylus](https://github.com/openstyles/stylus) ([firefox direct](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) to your browser
 2. click this link to install: [https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css](https://github.com/fluffye-yay/new-age-wafrn-v2/raw/refs/heads/main/style.user.css)
 3. if you do not use the app.wafrn.net instance, add your instance to "personally included sites" in your userstyle manager (under "style settings" on the left menu of the style, near the bottom)
